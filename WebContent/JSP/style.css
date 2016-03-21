@@ -1,0 +1,128 @@
+@font-face {
+    font-family: openSans;
+    src: url(OpenSans-Regular.ttf);
+}
+
+* {
+	font-family: openSans;
+}
+
+body {
+	margin: auto 10px;
+    width: auto;
+	background-color: #B0F0B0;
+}
+
+a {
+	font-size: 14px;
+	font-weight: 700;
+	max-width:100%;
+	max-height:100%;
+}
+
+form {
+	font-size: 14px;
+	font-weight: 700;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+form input {
+	width: 100%;
+	height: 44px;
+	-webkit-appearance: none;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+ 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+form input[type=submit] {
+	text-align: center;
+	background-color: #4d90fe;
+}
+
+.multifield form {
+	padding: 40px;
+	width: 274px;
+	background-color: #F1F1F1;
+	border-radius: 2px;
+	margin: 0px auto 0px;
+	overflow: hidden;
+}
+
+.multifield form input {
+	width: 100%;
+	height: 44px;
+	-webkit-appearance: none;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+ 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.multifield form input[type=submit] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.header {
+	display: inline-block;
+	background: #f1f1f1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#C1F1C1));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE);
+	width: 100%;
+}
+
+.header form {
+	display: inline;
+}
+
+.header form input {
+	height: 22px;
+	width: 174px;
+}
+
+.header form input[type=submit] {
+	height: 22px;
+	width: 70px;
+}
+
+.movieList {
+	text-align: "center";
+}
+
+.movieList td {
+    -moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+
+.movieList tr {
+	padding: 10px;
+}
+
+.shoppingCart input[type=text] {
+	height: 22px;
+	width: 22px;
+}
+
+.bordered {
+	padding: 50px;
+	padding-top: 24px;
+    border: ridge 100px #C1F1C1;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      circle,
+      #FFFFFF,
+      #CCFFCC
+    );
+}
